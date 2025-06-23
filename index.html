@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Color Warmth Analyzer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="card">
+        <h1>Color Warmth Analyzer</h1>
+        <p>Upload or paste an image of your fabric swatch (single-color).</p>
+        <input type="file" id="imgInput" accept="image/*">
+        <div class="paste-hint">or paste image (Ctrl + V / Cmd + V)</div>
+        <div id="summary"></div>
+        <ul id="results"></ul>
+    </div>
+
+    <canvas id="canvas" style="display:none;"></canvas>
+    <script src="script.js" defer></script>
+
+</body>
+
+</html>
